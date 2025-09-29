@@ -13,9 +13,14 @@ A rogue lite game
 bash build.sh
 ```
 
+## test
+```bash
+bash test.sh
+```
+
 ## run
 ```bash
-./rogue_app
+bash manual_test.sh
 ```
 
 ## TODO list:

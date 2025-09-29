@@ -4,6 +4,9 @@ A rogue lite game
 ## dependencies list:
 - pkg-config
 - SFML
+- Cmake
+- Catch2
+- CTest
 
 ## build
 ```bash
@@ -16,8 +19,7 @@ bash build.sh
 ```
 
 ## TODO list:
-- [ ] Setup Unit Test framework
-- [ ] Setup Intgration Test framework
+- [X] Setup Testing framework
 - [ ] Setup CI/CD on Github Actions
 - [ ] Give player a sword and ability to swing it
 

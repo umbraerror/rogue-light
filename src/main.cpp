@@ -2,6 +2,7 @@
 #include <optional>
 #include <cmath> // std::sqrt
 
+#ifndef GAME_TEST
 sf::Vector2f fetchDir(){
     sf::Vector2f dir{0.f, 0.f};
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Left)){
@@ -23,6 +24,7 @@ sf::Vector2f fetchDir(){
 
     return dir;
 }
+#endif
 
 class Player{
 public:

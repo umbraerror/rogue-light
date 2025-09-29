@@ -7,10 +7,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # --- Game app ---
 find_package(SFML 3 REQUIRED COMPONENTS Graphics Window System)
 
-add_executable(game_app
+add_executable(rogue_app
   src/main.cpp
 )
-target_link_libraries(game_app
+target_link_libraries(rogue_app
   PRIVATE
     SFML::Graphics
     SFML::Window
